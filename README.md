@@ -56,7 +56,7 @@ This lecture has a build-in presentation, which is accessible [here](https://sso
 |   └─ settings.json
 ├─ .gitignore
 ├─ .Rprofile
-├─ SSoQE-Lecture_template.Rproj
+├─ SSoQE-Version_Control.Rproj
 ├─ LICENSE
 ├─ README.md
 └─ renv.lock
