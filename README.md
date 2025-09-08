@@ -1,16 +1,20 @@
-# Lecture template
+# Lecture "Version Control" 
 
 Template for a general structure and of a Lecture for SSoQE 2025.
+
+## Presentation
+
+This lecture has a build-in presentation, which is accessible [here](https://ssoqe.github.io/SSoQE-Version_Control/).
 
 ## Structure and content
 
 ```plaintext
-├─ Data
-|   ├─ Input
-|   └─ Processed
-├─ docs
+├─ Data/
+|   ├─ Input/
+|   └─ Processed/
+├─ docs/
 |   └─ index.html
-├─ Presentation
+├─ Presentation/
 |   ├─ .gitignore
 |   ├─ .quarto/
 |   ├─ _colors.scss
@@ -25,27 +29,28 @@ Template for a general structure and of a Lecture for SSoQE 2025.
 |   ├─ presentation.qmd
 |   └─ Materials/
 |       ├─ Author/
+|       ├─ Exercise/
+|       ├─ git/
+|       ├─ Github/
 |       ├─ Logos/
-|       └─ QR/
-├─ R
+|       ├─ QR/
+|       ├─ Scriberia/
+|       └─ VSCode/
+├─ R/
 |   ├─ ___Init_project___.R
 |   ├─ 00_Config_file.R
 |   ├─ generate_theme.R
 |   ├─ render.R
 |   ├─ set_r_theme.R
 |   ├─ Exercises/
-|   |   ├─ .quarto/
-|   |   ├─ 01_example.html
-|   |   ├─ 01_example.qmd
-|   |   ├─ 01_example_files/
+|   |   ├─ .gitignore
 |   |   ├─ _colors.scss
 |   |   ├─ _exercise_theme.scss
 |   |   ├─ _fonts.scss
-|   |   ├─ _quarto.yml
-|   |   └─ render_excercises.R
+|   |   └─ _quarto.yml
 |   ├─ Functions/
 |   └─ Project/
-├─ renv
+├─ renv/
 |   ├─ activate.R
 |   ├─ library/
 |   └─ settings.json
