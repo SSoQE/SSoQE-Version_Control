@@ -115,7 +115,9 @@ include_local_figure("Logos/SSOQE_logo3.png")
 ::::
 
 
-## [This presentation]{.text-bold .r-fit-text} {.title}
+## This presentation {.title}
+
+<br>
 
 :::: {.columns}
 
@@ -166,7 +168,7 @@ It is all about [keeping track]{.text-highlight-midnightGreen} of [changes]{.tex
 [This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
 :::
 
-## Exercise {.exercise}
+## Discussion {.exercise .text-center}
 
 `r countdown(minutes = 3)`
 
@@ -466,7 +468,7 @@ git init <DIRECTORY>
 [SQLShack](https://www.sqlshack.com/visual-studio-code-vs-code-integration-with-git-source-control/)
 :::
 
-## [Note on practital exercises]{.r-fit-text .text-color-midnightGreen} {.bg-white}
+## [Note on practical exercises]{.text-color-midnightGreen} {.bg-white}
 
 ```{r}
 #| label: practical-exercise-note
@@ -477,7 +479,9 @@ include_local_figure("Exercise/monkey_see_monkey_do_by_adiasarahma.jpg")
 [image by adiasarahma](https://www.deviantart.com/adiasarahma/)
 :::
 
-## [Practical Exercise]{.r-fit-text} {.exercise .text-center}
+## [Practical Exercise]{.text-size-heading2} {.exercise .text-center}
+
+<br>
 
 ::: {.r-fit-text} 
 * Make a new project with Git tracking
@@ -673,7 +677,9 @@ git add <FILE>
 
 :::::
 
-## [Practical Exercise]{.r-fit-text} {.exercise .text-center}
+## [Practical Exercise]{.text-size-heading2} {.exercise .text-center}
+
+<br>
 
 ::: {.r-fit-text} 
 1. Make changes to (a) file(s)
@@ -788,7 +794,9 @@ Date:   Sat Mar 15 10:31:28 2008 -0700
 
 ::::
 
-## [Practical Exercise]{.r-fit-text} {.exercise .text-center}
+## [Practical Exercise]{.text-size-heading2} {.exercise .text-center}
+
+<br>
 
 ::: {.r-fit-text} 
 1. commit some changes
@@ -934,7 +942,9 @@ git push
 
 :::::
 
-## [Practical Exercise]{.r-fit-text} {.exercise .text-center}
+## [Practical Exercise]{.text-size-heading2} {.exercise .text-center}
+
+<br>
 
 ::: {.r-fit-text}
 1. Publish repo to GitHub
@@ -1117,7 +1127,9 @@ include_local_figure("GitHub/07_final_click.png")
 [biostats: Version control with GitHub and RStudio](https://biostats-r.github.io/biostats/github/1_Git_Tutorial.html)
 :::
 
-## [Practical Exercise]{.r-fit-text} {.exercise .text-center}
+## [Practical Exercise]{.text-size-heading2} {.exercise .text-center}
+
+<br>
 
 ::: {.r-fit-text}
 1. Create a new repo on GitHub
@@ -1137,7 +1149,7 @@ knitr::include_graphics("https://biostats-r.github.io/biostats/github/Pics/gittu
 
 Copy (download) from [remote repo]{.text-highlight-midnightGreen} to [local]{.text-highlight-persianGreen} machine
 
-Example of online repo: [OndrejMottl/VersionControl-playground](https://github.com/OndrejMottl/VersionControl-playground)
+Example of online repo: [SSoQE/VersionControl-playground](https://github.com/SSoQE/VersionControl-playground)
 
 ::::: {.panel-tabset}
 
@@ -1183,7 +1195,9 @@ git clone https://github.com/<OWNER>/<REPO>.git <DIRECTORY>
 
 :::::
 
-## [Practical Exercise]{.r-fit-text} {.exercise .text-center}
+## [Practical Exercise]{.text-size-heading2} {.exercise .text-center}
+
+<br>
 
 ::: {.r-fit-text} 
 clone a repo (e.g. any repo from [SSoQE](https://github.com/orgs/SSoQE/repositories))
@@ -1207,8 +1221,6 @@ A [merge conflict]{.text-highlight-midnightGreen} can occur when you are changin
 :::
 
 ## Merge conflict 💩💩💩
-
-<br>
 
 ```{bash}
 #| label: git-merge-conflict
