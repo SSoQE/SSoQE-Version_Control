@@ -153,6 +153,39 @@ include_local_figure("QR/qr_slides.svg")
 
 ::::
 
+# [Learning Objectives]{.bold .r-fit-text} {.title}
+
+## What we'll cover today
+
+:::: {.columns}
+
+::: {.column width="45%" .incremental}
+
+### 🎯 **Main Topics**
+
+- What is version control?
+- Git/GitHub setup
+- Make a record of a change (commit)
+- Sync changes with remote server
+
+:::
+
+::: {.column width="55%" .incremental}
+
+### ✅ **By the end, you'll be able to:**
+
+- Use git in RStudio
+- Understand basic git terminology
+- Create a GitHub repo
+- Make a commit
+- Push and Pull changes
+- Handle a merge conflict
+
+:::
+
+::::
+
+
 ## What is Version Control? 🤔
 
 ```{r}
@@ -172,7 +205,7 @@ It is all about [keeping track]{.text-highlight-midnightGreen} of [changes]{.tex
 
 `r countdown(minutes = 3)`
 
-:::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 
@@ -186,7 +219,7 @@ It is all about [keeping track]{.text-highlight-midnightGreen} of [changes]{.tex
 
 :::
 
-::: {.column width="50%" }
+::: {.column width="50%"}
 
 ### How do you keep track of changes?
 
@@ -472,7 +505,7 @@ git init <DIRECTORY>
 
 ```{r}
 #| label: practical-exercise-note
-include_local_figure("Exercise/monkey_see_monkey_do_by_adiasarahma.jpg")
+include_local_figure("Exercise/monkey_see_monkey_do_by_adiasarahma.png")
 ```
 
 ::: footer
@@ -483,7 +516,7 @@ include_local_figure("Exercise/monkey_see_monkey_do_by_adiasarahma.jpg")
 
 <br>
 
-::: {.r-fit-text} 
+::: {.r-fit-text .blockquote} 
 * Make a new project with Git tracking
 :::
 
@@ -681,7 +714,7 @@ git add <FILE>
 
 <br>
 
-::: {.r-fit-text} 
+::: {.r-fit-text .blockquote} 
 1. Make changes to (a) file(s)
 2. Make a new file
 3. Stage and Unstage the changes
@@ -798,7 +831,7 @@ Date:   Sat Mar 15 10:31:28 2008 -0700
 
 <br>
 
-::: {.r-fit-text} 
+::: {.r-fit-text .blockquote} 
 1. commit some changes
 2. review history
 :::
@@ -946,7 +979,7 @@ git push
 
 <br>
 
-::: {.r-fit-text}
+::: {.r-fit-text .blockquote}
 1. Publish repo to GitHub
 2. make new commit(s)
 3. Push changes to remote
@@ -1131,7 +1164,7 @@ include_local_figure("GitHub/07_final_click.png")
 
 <br>
 
-::: {.r-fit-text}
+::: {.r-fit-text .blockquote}
 1. Create a new repo on GitHub
 2. Delete a repo on GitHub
 :::
@@ -1199,7 +1232,7 @@ git clone https://github.com/<OWNER>/<REPO>.git <DIRECTORY>
 
 <br>
 
-::: {.r-fit-text} 
+::: {.r-fit-text .blockquote} 
 clone a repo (e.g. any repo from [SSoQE](https://github.com/orgs/SSoQE/repositories))
 :::
 
